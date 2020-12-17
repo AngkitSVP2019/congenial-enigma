@@ -1,0 +1,60 @@
+body{
+	background-color:darkorange;
+	font-family:helvetica nue, helvetica, verdana, arial, sans-serif;
+	font-weight:normal;
+}
+
+.book-cover{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:20%;
+}
+
+.details{
+	font-size:18px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	/* Same as above */
+	padding:20px;
+
+	margin-top:20px;
+	margin:20px 0;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.details .information1{
+	color:red;
+}
+
+.details .information1 .book-name{
+	font-weight:bold;
+}
+
+.details .information2{
+	color:brown;
+}
+
+.details .information2 .author{
+	font-weight:bold;
+}
+
+.details .information3{
+	color:green;
+}
+
+.details .information3 .publisher{
+	font-weight:bold;
+}
+
+.details .information4{
+	color:purple;
+}
+
+.details .information4 .date{
+	font-weight:bold;
+}
